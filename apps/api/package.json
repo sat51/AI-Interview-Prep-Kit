@@ -1,0 +1,9 @@
+{
+  "name": "@prep-kit/api",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "node-html-parser": "^9.0.4",
+    "zod": "^4.1.5"
+  }
+}

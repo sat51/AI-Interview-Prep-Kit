@@ -1,0 +1,20 @@
+{
+  "name": "ai-interview-prep-kit",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "test": "node --test 'apps/**/*.test.ts'",
+    "typecheck": "tsc -p tsconfig.json",
+    "crawl": "node apps/api/src/dev/crawl.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}
